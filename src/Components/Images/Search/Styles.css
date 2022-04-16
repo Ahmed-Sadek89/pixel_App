@@ -1,0 +1,16 @@
+form{
+    @apply flex flex-col md:flex-row items-center justify-center gap-2
+}
+input[type='text'], input[type='submit']{
+    @apply w-2/4 md:w-auto
+}
+input[type='text']{
+    @apply py-4 px-2 text-emerald-500 rounded-md outline-none outline-2 outline-emerald-500 transition duration-500 ease-in;
+}
+input[type='text']:focus{
+    @apply outline-4 outline-emerald-500
+}
+
+input[type='submit']{
+    @apply rounded-md bg-emerald-500 text-white cursor-pointer py-5 px-3 
+}

@@ -1,0 +1,18 @@
+header{
+    @apply shadow-md py-4 gap-y-4 md:gap-y-0;
+}
+.headerContainer{
+    @apply container flex flex-col md:flex-row justify-between items-start md:items-center 
+}
+.headerLeftSide{
+    @apply cursor-pointer mb-4 md:mb-0
+}
+.activeButton, .nonActiveButton{
+    @apply rounded-md text-white shadow-md ml-0 md:ml-5 mr-5 md:mr-0 px-3 py-2;
+}
+.activeButton{
+    @apply bg-emerald-500 font-bold;
+}
+.nonActiveButton{
+    @apply bg-gray-500 transition duration-300 ease-in hover:bg-emerald-500;
+}

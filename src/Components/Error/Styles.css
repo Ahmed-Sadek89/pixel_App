@@ -1,0 +1,12 @@
+.error{
+    @apply container flex flex-col items-center;
+}
+.t404{
+    @apply text-xl mb-5;
+}
+.l404{
+    @apply text-emerald-500 font-extrabold text-3xl;
+}
+.backBtn{
+    @apply bg-emerald-500 rounded-md px-5 py-2 text-white font-bold text-center;
+}

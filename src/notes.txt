@@ -1,0 +1,8 @@
+const apiKey = '26677654-7386bfad98ff454291817df20'
+const searchImage = ''
+const searchVedio = '' 
+image => https://pixabay.com/api/?key=${apiKey}&q=${searchImage}&image_type=photo&pretty=true
+vedio => https://pixabay.com/api/videos/?key=${apiKey}&q=${searchVedio}&pretty=true
+
+
+default colors => green(bg-emerald-500) white black
